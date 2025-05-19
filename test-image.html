@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>图片测试</title>
+    <style>
+        body {
+            background: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #fff;
+        }
+        .image-container {
+            margin: 20px 0;
+            border: 1px solid #666;
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>图片测试页面</h1>
+    
+    <div class="image-container">
+        <h2>直接路径测试</h2>
+        <p>1. xf.jpg</p>
+        <img src="images/xf.jpg" alt="测试图片1">
+    </div>
+    
+    <div class="image-container">
+        <h2>API路径测试</h2>
+        <p>2. direct-image/xf.jpg</p>
+        <img src="/direct-image/xf.jpg" alt="测试图片2">
+    </div>
+
+    <div class="image-container">
+        <h2>另一张图片测试</h2>
+        <p>3. tx.jpg</p>
+        <img src="/direct-image/tx.jpg" alt="测试图片3">
+    </div>
+</body>
+</html> 
